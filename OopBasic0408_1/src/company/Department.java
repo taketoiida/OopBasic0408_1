@@ -15,6 +15,14 @@ public class Department {
         System.out.println("部内会議を開催します。部署：" + name + "、予算：" + budget);
     }
     
+    public String getName() {
+        return name;
+    }
+    
+    public double getBudget() {
+        return budget;
+    }
+    
     public void setBudget(int budget) {
         if (budget < 0) {
             throw new IllegalArgumentException("予算はマイナスにできません。");
