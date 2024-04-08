@@ -20,6 +20,17 @@ public class ObjectSample {
         engineer.report();
         engineer.joinMeeting();
         engineer.developSoftware();
+        
+        Employee projectManager = new Engineer("佐藤", devDepartment, "PM", 99, "java");
+        
+        projectManager.report();
+        projectManager.joinMeeting();
+        if (projectManager instanceof Engineer) {
+            
+            ((Engineer) projectManager).developSoftware();
+            
+        }
+        
                 // TODO 自動生成されたメソッド・スタブ
 
     }
