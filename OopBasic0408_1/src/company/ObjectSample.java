@@ -1,8 +1,5 @@
 package company;
 
-import java.lang.invoke.VarHandle;
-
-import javax.management.ValueExp;
 
 public class ObjectSample {
 
