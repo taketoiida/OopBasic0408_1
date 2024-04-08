@@ -12,6 +12,12 @@ public class ObjectSample {
         
         employee.report();
         employee.report(2);
+        
+        System.out.println("");
+        
+        var engineer = new Employee("田中", "開発部", "一般社員", 88);
+        
+        engineer.report(3);
                 // TODO 自動生成されたメソッド・スタブ
 
     }

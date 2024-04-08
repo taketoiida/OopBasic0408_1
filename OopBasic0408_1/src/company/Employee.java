@@ -19,6 +19,6 @@ public class Employee {
     }
     
     public void report() {
-        report(1);
+        report(2);
     }
 }
