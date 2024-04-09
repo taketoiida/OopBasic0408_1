@@ -31,6 +31,14 @@ public class ObjectSample {
             
         }
         
+        System.out.println("");
+        
+        var parttimeWorker = new ParttimeWorker("太田", department);
+        
+        ((Workable) employee).work();
+        ((Workable) engineer).work();
+        ((Workable) projectManager).work();
+        ((Workable) parttimeWorker).work();
                 // TODO 自動生成されたメソッド・スタブ
 
     }
